@@ -34,3 +34,14 @@ void printTree(TreeNode* node) {
     printTree(node->left);
     printTree(node->right);
 }
+
+
+// 函数模板需要进行全特化（特殊处理）
+template<>
+void printVector(const vector<int>& v) {
+    
+    for (auto element: v) {
+        cout << element << " ";
+    }
+    cout << endl;
+}

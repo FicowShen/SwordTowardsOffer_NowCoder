@@ -38,6 +38,9 @@ struct TreeNode {
 class Solution {
 public:
     
+    // 23，从上往下按层打印二叉树结点
+    void testPrintTreeFromTopToBottom();
+    
     // 22，栈的压入与弹出序列
     void testCheckStackPushPopOrder();
     
@@ -113,5 +116,8 @@ public:
 void sleep(int nanoSeconds = 5e8, int seconds = 0);
 
 void printTree(TreeNode* node);
+
+template<typename T>
+void printVector(const vector<T>& v);
 
 #endif /* __Find_hpp */

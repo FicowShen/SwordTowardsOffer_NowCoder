@@ -13,6 +13,7 @@
 		6A04A2FE2180B11800B0C942 /* 5 PrintListFromTailToHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A04A2FC2180B11800B0C942 /* 5 PrintListFromTailToHead.cpp */; };
 		6A04A301218196F700B0C942 /* 6 ReConstructBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A04A2FF218196F700B0C942 /* 6 ReConstructBinaryTree.cpp */; };
 		6A04A3032181BA7400B0C942 /* 7 MakeQueueWithTwoStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A04A3022181BA7400B0C942 /* 7 MakeQueueWithTwoStack.cpp */; };
+		6A04A58C219EC3BE0019A104 /* 23 PrintTreeFromTopToBottom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A04A58B219EC3BE0019A104 /* 23 PrintTreeFromTopToBottom.cpp */; };
 		6A0C2D112186FE49007B4E6D /* Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C2D102186FE49007B4E6D /* Solution.cpp */; };
 		6A164E3F21887AE100BE021E /* 14 ReOrderArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A164E3E21887AE100BE021E /* 14 ReOrderArray.cpp */; };
 		6A3EA9E8218C4D1200AA3A02 /* 18 HasSubtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3EA9E7218C4D1200AA3A02 /* 18 HasSubtree.cpp */; };
@@ -54,6 +55,7 @@
 		6A04A2FC2180B11800B0C942 /* 5 PrintListFromTailToHead.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5 PrintListFromTailToHead.cpp"; sourceTree = "<group>"; };
 		6A04A2FF218196F700B0C942 /* 6 ReConstructBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "6 ReConstructBinaryTree.cpp"; sourceTree = "<group>"; };
 		6A04A3022181BA7400B0C942 /* 7 MakeQueueWithTwoStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "7 MakeQueueWithTwoStack.cpp"; sourceTree = "<group>"; };
+		6A04A58B219EC3BE0019A104 /* 23 PrintTreeFromTopToBottom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "23 PrintTreeFromTopToBottom.cpp"; sourceTree = "<group>"; };
 		6A0C2D102186FE49007B4E6D /* Solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solution.cpp; sourceTree = "<group>"; };
 		6A164E3E21887AE100BE021E /* 14 ReOrderArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "14 ReOrderArray.cpp"; sourceTree = "<group>"; };
 		6A3EA9E7218C4D1200AA3A02 /* 18 HasSubtree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "18 HasSubtree.cpp"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				6AE71E2A2190731D00EEB607 /* 20 PrintMatrixClockwise.cpp */,
 				6A74C656219C21F300B4D8DC /* 21 StackWithMinFunction.cpp */,
 				6A74C658219C29ED00B4D8DC /* 22 CheckStackPushPopOrder.cpp */,
+				6A04A58B219EC3BE0019A104 /* 23 PrintTreeFromTopToBottom.cpp */,
 			);
 			path = NowCoder;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				6AF4E2BE2185DF5D00ADF89E /* 11 Power.cpp in Sources */,
 				6A04A301218196F700B0C942 /* 6 ReConstructBinaryTree.cpp in Sources */,
 				6A799FF92186E8F20093FD0E /* 12 PrintOneToMaxNDigits.cpp in Sources */,
+				6A04A58C219EC3BE0019A104 /* 23 PrintTreeFromTopToBottom.cpp in Sources */,
 				6AF840F1218AEF8200E4D9DF /* 16 ReverseList.cpp in Sources */,
 				6AEC67622181C8CB00327ABA /* 0 QuickSort.cpp in Sources */,
 				6AF840F3218B039C00E4D9DF /* 17 MergeTwoOrderedList.cpp in Sources */,
