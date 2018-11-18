@@ -38,6 +38,9 @@ struct TreeNode {
 class Solution {
 public:
     
+    // 24，验证二叉搜索树的后序遍历序列
+    void testVerifySquenceOfBST();
+    
     // 23，从上往下按层打印二叉树结点
     void testPrintTreeFromTopToBottom();
     
