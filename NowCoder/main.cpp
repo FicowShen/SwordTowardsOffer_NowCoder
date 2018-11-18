@@ -60,7 +60,7 @@ int main(int argc, const char * argv[]) {
 
     Solution s = Solution();
     
-    s.testVerifySquenceOfBST();
+    s.testFindSumPathInBTree();
     
     return 0;
 }

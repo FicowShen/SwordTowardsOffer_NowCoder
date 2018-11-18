@@ -38,6 +38,9 @@ struct TreeNode {
 class Solution {
 public:
     
+    // 25，二叉树中和为某一值的路径
+    void testFindSumPathInBTree();
+    
     // 24，验证二叉搜索树的后序遍历序列
     void testVerifySquenceOfBST();
     
