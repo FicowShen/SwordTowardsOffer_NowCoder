@@ -60,7 +60,7 @@ int main(int argc, const char * argv[]) {
 
     Solution s = Solution();
     
-    s.testFindSumPathInBTree();
+    s.testCloneList();
     
     return 0;
 }

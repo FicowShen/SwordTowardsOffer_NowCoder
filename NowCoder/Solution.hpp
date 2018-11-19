@@ -38,6 +38,9 @@ struct TreeNode {
 class Solution {
 public:
     
+    // 26，复杂链表的复制
+    void testCloneList();
+    
     // 25，二叉树中和为某一值的路径
     void testFindSumPathInBTree();
     

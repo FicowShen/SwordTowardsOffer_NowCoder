@@ -18,6 +18,7 @@
 		6A164E3F21887AE100BE021E /* 14 ReOrderArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A164E3E21887AE100BE021E /* 14 ReOrderArray.cpp */; };
 		6A3717BA21A143920085A064 /* 24 VerifySquenceOfBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3717B921A143920085A064 /* 24 VerifySquenceOfBST.cpp */; };
 		6A3717BC21A14C6D0085A064 /* 25 FindSumPathInBTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3717BB21A14C6D0085A064 /* 25 FindSumPathInBTree.cpp */; };
+		6A3717BE21A258A00085A064 /* 26 CloneList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3717BD21A258A00085A064 /* 26 CloneList.cpp */; };
 		6A3EA9E8218C4D1200AA3A02 /* 18 HasSubtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3EA9E7218C4D1200AA3A02 /* 18 HasSubtree.cpp */; };
 		6A3EA9EA218C8B8400AA3A02 /* 19 Mirror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3EA9E9218C8B8400AA3A02 /* 19 Mirror.cpp */; };
 		6A74C657219C21F300B4D8DC /* 21 StackWithMinFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A74C656219C21F300B4D8DC /* 21 StackWithMinFunction.cpp */; };
@@ -62,6 +63,7 @@
 		6A164E3E21887AE100BE021E /* 14 ReOrderArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "14 ReOrderArray.cpp"; sourceTree = "<group>"; };
 		6A3717B921A143920085A064 /* 24 VerifySquenceOfBST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "24 VerifySquenceOfBST.cpp"; sourceTree = "<group>"; };
 		6A3717BB21A14C6D0085A064 /* 25 FindSumPathInBTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "25 FindSumPathInBTree.cpp"; sourceTree = "<group>"; };
+		6A3717BD21A258A00085A064 /* 26 CloneList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "26 CloneList.cpp"; sourceTree = "<group>"; };
 		6A3EA9E7218C4D1200AA3A02 /* 18 HasSubtree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "18 HasSubtree.cpp"; sourceTree = "<group>"; };
 		6A3EA9E9218C8B8400AA3A02 /* 19 Mirror.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "19 Mirror.cpp"; sourceTree = "<group>"; };
 		6A74C656219C21F300B4D8DC /* 21 StackWithMinFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "21 StackWithMinFunction.cpp"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				6A04A58B219EC3BE0019A104 /* 23 PrintTreeFromTopToBottom.cpp */,
 				6A3717B921A143920085A064 /* 24 VerifySquenceOfBST.cpp */,
 				6A3717BB21A14C6D0085A064 /* 25 FindSumPathInBTree.cpp */,
+				6A3717BD21A258A00085A064 /* 26 CloneList.cpp */,
 			);
 			path = NowCoder;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				6A164E3F21887AE100BE021E /* 14 ReOrderArray.cpp in Sources */,
 				6A74C659219C29ED00B4D8DC /* 22 CheckStackPushPopOrder.cpp in Sources */,
 				6AF4E2B2218301E900ADF89E /* 8 MinNumberInRotateArray.cpp in Sources */,
+				6A3717BE21A258A00085A064 /* 26 CloneList.cpp in Sources */,
 				6AF4E2BC21849F9300ADF89E /* TestOperators.cpp in Sources */,
 				6A3EA9EA218C8B8400AA3A02 /* 19 Mirror.cpp in Sources */,
 				6A04A2EB2180771900B0C942 /* main.cpp in Sources */,
