@@ -47,3 +47,12 @@ void printVector(const vector<int>& v) {
     }
     cout << endl;
 }
+
+template<>
+void printVector(const vector<string>& v) {
+    
+    for (auto element: v) {
+        cout << element << " ";
+    }
+    cout << endl;
+}

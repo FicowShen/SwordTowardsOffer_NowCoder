@@ -15,6 +15,7 @@
 #include <vector>
 #include <queue>
 #include <stack>
+#include <string>
 
 #include "Solution.hpp"
 
@@ -37,6 +38,9 @@ struct TreeNode {
 
 class Solution {
 public:
+    
+    // 28，字符串的排列
+    void testCharPermutationInString();
     
     // 27，二叉搜索树与双向链表
     void testConvertDoubleLinkedListFromBST();
