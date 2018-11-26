@@ -38,11 +38,14 @@ struct TreeNode {
 class Solution {
 public:
     
+    // 27，二叉搜索树与双向链表
+    void testConvertDoubleLinkedListFromBST();
+    
     // 26，复杂链表的复制
     void testCloneList();
     
     // 25，二叉树中和为某一值的路径
-    void testFindSumPathInBTree();
+    void testFindSumPathInBinaryTree();
     
     // 24，验证二叉搜索树的后序遍历序列
     void testVerifySquenceOfBST();

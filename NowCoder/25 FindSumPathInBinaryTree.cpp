@@ -1,5 +1,5 @@
 //
-//  25 FindSumPathInBTree.cpp
+//  25 FindSumPathInBinaryTree.cpp
 //  NowCoder
 //
 //  Created by Ficow on 2018/11/18.
@@ -57,7 +57,7 @@ vector<vector<int> > FindPath2(TreeNode* root,int expectNumber) {
     return findResults;
 }
 
-void Solution::testFindSumPathInBTree() {
+void Solution::testFindSumPathInBinaryTree() {
     
     TreeNode* rightTree = new TreeNode(12);
 //    rightTree->left = new TreeNode(9);

@@ -29,9 +29,11 @@ void sleep(int nanoSeconds, int seconds) {
 
 void printTree(TreeNode* node) {
     
-    if (!node) return;
-    printf("%d ", node->val);
+    if (!node) {
+        return;
+    }
     printTree(node->left);
+    printf("%d ", node->val);
     printTree(node->right);
 }
 
