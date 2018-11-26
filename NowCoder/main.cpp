@@ -60,7 +60,7 @@ int main(int argc, const char * argv[]) {
 
     Solution s = Solution();
     
-    s.testCharPermutationInString();
+    s.testMoreThanHalfNum();
     
     return 0;
 }

@@ -39,6 +39,9 @@ struct TreeNode {
 class Solution {
 public:
     
+    // 29，数组中出现次数超过一半的数字
+    void testMoreThanHalfNum();
+    
     // 28，字符串的排列
     void testCharPermutationInString();
     

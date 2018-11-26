@@ -23,6 +23,7 @@
 		6A3EA9E8218C4D1200AA3A02 /* 18 HasSubtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3EA9E7218C4D1200AA3A02 /* 18 HasSubtree.cpp */; };
 		6A3EA9EA218C8B8400AA3A02 /* 19 Mirror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3EA9E9218C8B8400AA3A02 /* 19 Mirror.cpp */; };
 		6A60B09721ABCA690020B340 /* 28 CharPermutationInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A60B09621ABCA690020B340 /* 28 CharPermutationInString.cpp */; };
+		6A60B09921ABF0480020B340 /* 29 MoreThanHalfNum_Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A60B09821ABF0480020B340 /* 29 MoreThanHalfNum_Solution.cpp */; };
 		6A74C657219C21F300B4D8DC /* 21 StackWithMinFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A74C656219C21F300B4D8DC /* 21 StackWithMinFunction.cpp */; };
 		6A74C659219C29ED00B4D8DC /* 22 CheckStackPushPopOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A74C658219C29ED00B4D8DC /* 22 CheckStackPushPopOrder.cpp */; };
 		6A799FF92186E8F20093FD0E /* 12 PrintOneToMaxNDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A799FF82186E8F20093FD0E /* 12 PrintOneToMaxNDigits.cpp */; };
@@ -70,6 +71,7 @@
 		6A3EA9E7218C4D1200AA3A02 /* 18 HasSubtree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "18 HasSubtree.cpp"; sourceTree = "<group>"; };
 		6A3EA9E9218C8B8400AA3A02 /* 19 Mirror.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "19 Mirror.cpp"; sourceTree = "<group>"; };
 		6A60B09621ABCA690020B340 /* 28 CharPermutationInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "28 CharPermutationInString.cpp"; sourceTree = "<group>"; };
+		6A60B09821ABF0480020B340 /* 29 MoreThanHalfNum_Solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "29 MoreThanHalfNum_Solution.cpp"; sourceTree = "<group>"; };
 		6A74C656219C21F300B4D8DC /* 21 StackWithMinFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "21 StackWithMinFunction.cpp"; sourceTree = "<group>"; };
 		6A74C658219C29ED00B4D8DC /* 22 CheckStackPushPopOrder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "22 CheckStackPushPopOrder.cpp"; sourceTree = "<group>"; };
 		6A799FF82186E8F20093FD0E /* 12 PrintOneToMaxNDigits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12 PrintOneToMaxNDigits.cpp"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				6A3717BD21A258A00085A064 /* 26 CloneList.cpp */,
 				6A27EFED21A288EC009FFB69 /* 27 ConvertDoubleLinkedListFromBST.cpp */,
 				6A60B09621ABCA690020B340 /* 28 CharPermutationInString.cpp */,
+				6A60B09821ABF0480020B340 /* 29 MoreThanHalfNum_Solution.cpp */,
 			);
 			path = NowCoder;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				6A04A301218196F700B0C942 /* 6 ReConstructBinaryTree.cpp in Sources */,
 				6A799FF92186E8F20093FD0E /* 12 PrintOneToMaxNDigits.cpp in Sources */,
 				6A3717BC21A14C6D0085A064 /* 25 FindSumPathInBinaryTree.cpp in Sources */,
+				6A60B09921ABF0480020B340 /* 29 MoreThanHalfNum_Solution.cpp in Sources */,
 				6A04A58C219EC3BE0019A104 /* 23 PrintTreeFromTopToBottom.cpp in Sources */,
 				6AF840F1218AEF8200E4D9DF /* 16 ReverseList.cpp in Sources */,
 				6AEC67622181C8CB00327ABA /* 0 QuickSort.cpp in Sources */,
