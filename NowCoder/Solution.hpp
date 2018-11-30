@@ -39,6 +39,9 @@ struct TreeNode {
 class Solution {
 public:
     
+    // 30，数组中最小的K个数
+    void testLeastKNumbers();
+    
     // 29，数组中出现次数超过一半的数字
     void testMoreThanHalfNum();
     
@@ -123,7 +126,7 @@ public:
     // 0，快速排序
     void testQuickSort();
     
-    
+
 };
 
 /**
