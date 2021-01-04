@@ -39,6 +39,9 @@ struct TreeNode {
 class Solution {
 public:
     
+    // 31，连续子树组的最大和
+    void testFindGreatestSumOfSubArray();
+    
     // 30，数组中最小的K个数
     void testLeastKNumbers();
     
@@ -141,5 +144,7 @@ void printTree(TreeNode* node);
 
 template<typename T>
 void printVector(const vector<T>& v);
+
+void benchmark(void(*block)(void));
 
 #endif /* __Find_hpp */

@@ -56,3 +56,11 @@ void printVector(const vector<string>& v) {
     }
     cout << endl;
 }
+
+
+void benchmark(void(*block)(void)) {
+    
+    double start = clock();
+    block();
+    printf("benchmark: %.5f\n", double(clock() - start) / CLOCKS_PER_SEC);
+}

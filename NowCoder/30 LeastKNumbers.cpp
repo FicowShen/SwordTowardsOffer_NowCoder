@@ -68,17 +68,29 @@ vector<int> GetLeastNumbers_Solution2(vector<int> input, int k) {
     vector<int> result;
     
     if (k > input.size()) return result;
-    
-    multiset<int> valueSet;
     long size = input.size();
+    
+//    multiset<int> valueSet;
+//    for (long i = 0; i < size; i++) {
+//        if (valueSet.size() < k) {
+//            valueSet.insert(input[i]);
+//        }else{
+//            // https://stackoverflow.com/questions/26459778/how-a-multiset-works-and-how-one-can-find-the-minimum-element-in-multiset
+//            multiset<int>::iterator maximum = max_element(valueSet.begin(), valueSet.end());
+//            if (*maximum > input[i]) {
+//                valueSet.erase(maximum);
+//                valueSet.insert(input[i]);
+//            }
+//        }
+//    }
+
+    multiset<int, greater<int>> valueSet;
     for (long i = 0; i < size; i++) {
         if (valueSet.size() < k) {
             valueSet.insert(input[i]);
         }else{
-            // https://stackoverflow.com/questions/26459778/how-a-multiset-works-and-how-one-can-find-the-minimum-element-in-multiset
-            multiset<int>::iterator maximum = max_element(valueSet.begin(), valueSet.end());
-            if (*maximum > input[i]) {
-                valueSet.erase(maximum);
+            if (*valueSet.begin() > input[i]) {
+                valueSet.erase(valueSet.begin());
                 valueSet.insert(input[i]);
             }
         }
@@ -91,11 +103,64 @@ vector<int> GetLeastNumbers_Solution2(vector<int> input, int k) {
     return result;
 }
 
+const int TestLoop = 100000;
+
+void testFunc1() {
+    
+    vector<int> values;
+    for (int i = 0 ; i < TestLoop; i++) {
+        values.push_back(int(arc4random_uniform(TestLoop)));
+    }
+    GetLeastNumbers_Solution(values, TestLoop >> 1);
+}
+
+void testFunc2() {
+    
+    vector<int> values;
+    for (int i = 0 ; i < TestLoop; i++) {
+        values.push_back(int(arc4random_uniform(TestLoop)));
+    }
+    GetLeastNumbers_Solution2(values, TestLoop >> 1);
+}
 
 void Solution::testLeastKNumbers() {
     
-    vector<int> values = {4,5,1,6,2,7,3,8};
+    multiset<int, greater<int>> greadterSet;
+    multiset<int, less<int>> lessSet;
+    multiset<int> defaultSet;
+    for (int i = 0; i < 10; i++) {
+        int v = int(arc4random_uniform(10));
+        greadterSet.insert(v);
+        lessSet.insert(v);
+        defaultSet.insert(v);
+    }
+    for (auto v: greadterSet) {
+        printf("%d ", v);
+    }
+    printf("\n");
+    for (auto v: lessSet) {
+        printf("%d ", v);
+    }
+    printf("\n");
+    for (auto v: defaultSet) {
+        printf("%d ", v);
+    }
+    printf("\n");
     
+    
+    
+    vector<int> values = {4,5,1,6,2,7,3,8};
     printVector(GetLeastNumbers_Solution2(values, 4));
     
+    values = {4,5,1,6};
+    printVector(GetLeastNumbers_Solution2(values, 4));
+    
+    values = {1,6,2};
+    printVector(GetLeastNumbers_Solution2(values, 4));
+    
+    values = {4};
+    printVector(GetLeastNumbers_Solution2(values, 0));
+
+    benchmark(testFunc1);
+    benchmark(testFunc2);
 }
